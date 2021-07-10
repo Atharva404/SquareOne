@@ -14,6 +14,7 @@
 		CCB53BF82698EF510056370D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB53BF72698EF510056370D /* Assets.xcassets */; };
 		CCB53C042698FA600056370D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB53BF92698EF510056370D /* LaunchScreen.storyboard */; };
 		CCB53C07269906EE0056370D /* axis.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCB53C06269906EE0056370D /* axis.otf */; };
+		CCB53C0D269917950056370D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB53C0C269917950056370D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CCB53BFA2698EF510056370D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCB53BFC2698EF510056370D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCB53C06269906EE0056370D /* axis.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = axis.otf; path = ../../../Downloads/axis.otf; sourceTree = "<group>"; };
+		CCB53C0C269917950056370D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				CCB53BEE2698EF410056370D /* AppDelegate.swift */,
 				CCB53BF02698EF410056370D /* SceneDelegate.swift */,
 				CCB53BF22698EF410056370D /* ViewController.swift */,
+				CCB53C0C269917950056370D /* ResultViewController.swift */,
 				CCB53BF42698EF410056370D /* Main.storyboard */,
 				CCB53C06269906EE0056370D /* axis.otf */,
 				CCB53BF72698EF510056370D /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				CCB53BF32698EF410056370D /* ViewController.swift in Sources */,
 				CCB53BEF2698EF410056370D /* AppDelegate.swift in Sources */,
 				CCB53BF12698EF410056370D /* SceneDelegate.swift in Sources */,
+				CCB53C0D269917950056370D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
