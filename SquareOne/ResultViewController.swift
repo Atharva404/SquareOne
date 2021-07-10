@@ -8,14 +8,18 @@
 import UIKit
 
 class ResultViewController: UIViewController, UITextFieldDelegate {
-
+    var classNameText : String?
+    @IBOutlet weak var meetingButton: UIButton!
     @IBOutlet weak var Description: UITextField!
     @IBOutlet weak var DateandTime: UIDatePicker!
     @IBOutlet weak var className: UITextField!
     override func viewDidLoad() {
+        
+        meetingButton.layer.cornerRadius = 8
         super.viewDidLoad()
         Description.delegate = self
         className.delegate = self
+        classNameText = className.text!
         // Do any additional setup after loading the view.
     }
      
@@ -23,15 +27,6 @@ class ResultViewController: UIViewController, UITextFieldDelegate {
         print("Description: \(Description.text!)\nClassName: \(className.text!)\n Date: \(DateandTime.date)")
         self.dismiss(animated: true, completion: nil)
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 extension ViewController : UITextFieldDelegate {

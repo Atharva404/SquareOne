@@ -36,7 +36,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq5-rx-pBY">
-                                <rect key="frame" x="67" y="742" width="281" height="56"/>
+                                <rect key="frame" x="50" y="740" width="315" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7661189437" green="0.76722317929999995" blue="0.94987231490000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Axis" family="Axis" pointSize="18"/>
@@ -90,29 +90,29 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date and Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEV-wW-Wzj">
-                                <rect key="frame" x="31" y="244" width="383" height="40"/>
+                                <rect key="frame" x="35" y="267" width="383" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Axis" family="Axis" pointSize="18"/>
                                 <color key="textColor" red="0.41829654570000002" green="0.40456506609999998" blue="0.62986677889999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Class Name..." adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fee-yz-aKK">
-                                <rect key="frame" x="31" y="191" width="313" height="34"/>
+                                <rect key="frame" x="31" y="203" width="313" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <color key="textColor" red="0.41591212150000001" green="0.42865026000000001" blue="0.8046132922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Axis" family="Axis" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQV-2L-PaK">
-                                <rect key="frame" x="31" y="484" width="383" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Send Teacher Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glt-wh-Kj2">
+                                <rect key="frame" x="31" y="581" width="383" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Axis" family="Axis" pointSize="18"/>
                                 <color key="textColor" red="0.41829654570000002" green="0.40456506609999998" blue="0.62986677889999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Description..." adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xlU-r9-EBG">
-                                <rect key="frame" x="31" y="532" width="313" height="34"/>
+                                <rect key="frame" x="35" y="506" width="313" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <color key="textColor" red="0.41591212150000001" green="0.42865026000000001" blue="0.8046132922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -120,14 +120,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-vu-9Lt">
-                                <rect key="frame" x="31" y="304" width="305" height="119"/>
+                                <rect key="frame" x="31" y="315" width="305" height="119"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <date key="minimumDate" timeIntervalSinceReferenceDate="-62482885764">
-                                    <!--0021-01-01 10:50:36 +0000-->
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-62466556164">
+                                    <!--0021-07-09 10:50:36 +0000-->
                                 </date>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6q-UB-u7m">
-                                <rect key="frame" x="67" y="676" width="281" height="56"/>
+                                <rect key="frame" x="31" y="669" width="343" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7661189437" green="0.76722317929999995" blue="0.94987231490000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Axis" family="Axis" pointSize="18"/>
@@ -139,6 +139,17 @@
                                     <action selector="returnPressed:" destination="F4H-Ot-yfU" eventType="touchUpInside" id="dLJ-Fm-Gnp"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQz-Nk-box">
+                                <rect key="frame" x="287" y="581" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQV-2L-PaK">
+                                <rect key="frame" x="35" y="442" width="383" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Axis" family="Axis" pointSize="18"/>
+                                <color key="textColor" red="0.41829654570000002" green="0.40456506609999998" blue="0.62986677889999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Cns-iz-0sS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -147,6 +158,7 @@
                         <outlet property="DateandTime" destination="gxt-vu-9Lt" id="OfK-CE-waa"/>
                         <outlet property="Description" destination="xlU-r9-EBG" id="Nu9-WJ-isR"/>
                         <outlet property="className" destination="Fee-yz-aKK" id="1O3-Mm-JDO"/>
+                        <outlet property="meetingButton" destination="d6q-UB-u7m" id="xnC-re-Jzp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TDV-jM-hpc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
