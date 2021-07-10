@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCA9C53E269A3C7500C504E7 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C53D269A3C7500C504E7 /* ScheduleViewController.swift */; };
 		CCB53BEF2698EF410056370D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB53BEE2698EF410056370D /* AppDelegate.swift */; };
 		CCB53BF12698EF410056370D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB53BF02698EF410056370D /* SceneDelegate.swift */; };
 		CCB53BF32698EF410056370D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB53BF22698EF410056370D /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCA9C53D269A3C7500C504E7 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		CCB53BEB2698EF410056370D /* SquareOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB53BEE2698EF410056370D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB53BF02698EF410056370D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				CCB53BF22698EF410056370D /* ViewController.swift */,
 				CCB53C0C269917950056370D /* ResultViewController.swift */,
 				CCB53BF42698EF410056370D /* Main.storyboard */,
+				CCA9C53D269A3C7500C504E7 /* ScheduleViewController.swift */,
 				CCB53C06269906EE0056370D /* axis.otf */,
 				CCB53BF72698EF510056370D /* Assets.xcassets */,
 				CCB53BF92698EF510056370D /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA9C53E269A3C7500C504E7 /* ScheduleViewController.swift in Sources */,
 				CCB53BF32698EF410056370D /* ViewController.swift in Sources */,
 				CCB53BEF2698EF410056370D /* AppDelegate.swift in Sources */,
 				CCB53BF12698EF410056370D /* SceneDelegate.swift in Sources */,

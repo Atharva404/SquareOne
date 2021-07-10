@@ -12,16 +12,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var MeetingButton: UIButton!
     @IBOutlet weak var ClassText: UILabel?
     
+    @IBOutlet weak var scheduleLocker: UIButton!
     var text: String = ""
     
     override func viewDidLoad() {
         MeetingButton.layer.cornerRadius = 8
+        scheduleLocker.layer.cornerRadius = 8
         super.viewDidLoad()
         ClassText?.text = text
     }
     @IBAction func newMeetingPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "newMeeting", sender: self)
     }
+
 }
 
 
