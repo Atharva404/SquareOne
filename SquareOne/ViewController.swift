@@ -8,14 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var className = ""
+    var classNameToDisplay : String?
     @IBOutlet weak var MeetingButton: UIButton!
+    @IBOutlet weak var ClassText: UILabel?
     
+    var text: String = ""
     
     override func viewDidLoad() {
         MeetingButton.layer.cornerRadius = 8
-        
         super.viewDidLoad()
+        ClassText?.text = text
     }
     @IBAction func newMeetingPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "newMeeting", sender: self)
