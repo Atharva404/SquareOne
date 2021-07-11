@@ -17,6 +17,7 @@
 		704529CA269AA4CE000A4B23 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529C9269AA4CE000A4B23 /* HomeView.swift */; };
 		704529CC269B69D4000A4B23 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529CB269B69D4000A4B23 /* ScheduleView.swift */; };
 		704529CE269B7596000A4B23 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529CD269B7596000A4B23 /* ProfileView.swift */; };
+		704529D2269B8652000A4B23 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529D1269B8652000A4B23 /* MainView.swift */; };
 		70DE782F269926F100EDEA0D /* AddPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE782E269926F100EDEA0D /* AddPlannerView.swift */; };
 		70E3EA6B269A39E900FBAB13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E3EA6A269A39E900FBAB13 /* LoginView.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		704529C9269AA4CE000A4B23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		704529CB269B69D4000A4B23 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		704529CD269B7596000A4B23 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		704529D1269B8652000A4B23 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		70DE782E269926F100EDEA0D /* AddPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlannerView.swift; sourceTree = "<group>"; };
 		70E3EA6A269A39E900FBAB13 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 				704529C9269AA4CE000A4B23 /* HomeView.swift */,
 				704529CB269B69D4000A4B23 /* ScheduleView.swift */,
 				704529CD269B7596000A4B23 /* ProfileView.swift */,
+				704529D1269B8652000A4B23 /* MainView.swift */,
 			);
 			path = SquareOne;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				704529C8269A9211000A4B23 /* AddMeetingView.swift in Sources */,
 				70E3EA6B269A39E900FBAB13 /* LoginView.swift in Sources */,
 				704529CC269B69D4000A4B23 /* ScheduleView.swift in Sources */,
+				704529D2269B8652000A4B23 /* MainView.swift in Sources */,
 				704529CA269AA4CE000A4B23 /* HomeView.swift in Sources */,
 				70DE782F269926F100EDEA0D /* AddPlannerView.swift in Sources */,
 				704529C6269A8C95000A4B23 /* MeetingView.swift in Sources */,

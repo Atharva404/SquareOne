@@ -44,10 +44,10 @@ struct ScheduleView: View {
                                 .foregroundColor(.primary)
                                 .colorScheme(.dark)
                                 .padding(.top)
-                            ScheduleCard(room: "Room B207", subject: "AP Physics", teacher: "Mr. Hennessey")
-                            ScheduleCard(room: "Room C245", subject: "AP Art History", teacher: "Mr. Howard")
-                            ScheduleCard(room: "Room B102", subject: "AP Calculus", teacher: "Ms. Reichard")
-                            ScheduleCard(room: "Room B103", subject: "AP Statistics", teacher: "Mr. Hugh")
+                            ScheduleCard(room: "Room B237", subject: "AP Chemisty", teacher: "Ms. Aguayo")
+                            ScheduleCard(room: "Room A215", subject: "AP Biology", teacher: "Mr. Duncan")
+                            ScheduleCard(room: "Room B112", subject: "Personal Fitness", teacher: "Coach Samuel")
+                            ScheduleCard(room: "Room B133", subject: "AP Research", teacher: "Coach Petty")
                                 
                                 
                                 
