@@ -3,89 +3,159 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CCA9C53E269A3C7500C504E7 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C53D269A3C7500C504E7 /* ScheduleViewController.swift */; };
-		CCB53BEF2698EF410056370D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB53BEE2698EF410056370D /* AppDelegate.swift */; };
-		CCB53BF12698EF410056370D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB53BF02698EF410056370D /* SceneDelegate.swift */; };
-		CCB53BF32698EF410056370D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB53BF22698EF410056370D /* ViewController.swift */; };
-		CCB53BF62698EF410056370D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB53BF42698EF410056370D /* Main.storyboard */; };
-		CCB53BF82698EF510056370D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB53BF72698EF510056370D /* Assets.xcassets */; };
-		CCB53C042698FA600056370D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB53BF92698EF510056370D /* LaunchScreen.storyboard */; };
-		CCB53C07269906EE0056370D /* axis.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCB53C06269906EE0056370D /* axis.otf */; };
-		CCB53C0D269917950056370D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB53C0C269917950056370D /* ResultViewController.swift */; };
+		7044A5D0269907AA001E7936 /* SquareOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044A5CF269907AA001E7936 /* SquareOneApp.swift */; };
+		7044A5D2269907AA001E7936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044A5D1269907AA001E7936 /* ContentView.swift */; };
+		7044A5D4269907AC001E7936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7044A5D3269907AC001E7936 /* Assets.xcassets */; };
+		7044A5D7269907AC001E7936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7044A5D6269907AC001E7936 /* Preview Assets.xcassets */; };
+		7044A5DF269907D5001E7936 /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044A5DE269907D5001E7936 /* PlannerView.swift */; };
+		704529C6269A8C95000A4B23 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529C5269A8C95000A4B23 /* MeetingView.swift */; };
+		704529C8269A9211000A4B23 /* AddMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529C7269A9211000A4B23 /* AddMeetingView.swift */; };
+		704529CA269AA4CE000A4B23 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529C9269AA4CE000A4B23 /* HomeView.swift */; };
+		704529CC269B69D4000A4B23 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529CB269B69D4000A4B23 /* ScheduleView.swift */; };
+		704529CE269B7596000A4B23 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529CD269B7596000A4B23 /* ProfileView.swift */; };
+		704529D2269B8652000A4B23 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529D1269B8652000A4B23 /* MainView.swift */; };
+		704529D4269BDBBE000A4B23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 704529D3269BDBBE000A4B23 /* GoogleService-Info.plist */; };
+		704529D6269BDDAA000A4B23 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529D5269BDDAA000A4B23 /* Meeting.swift */; };
+		704529D8269BDF99000A4B23 /* MeetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529D7269BDF99000A4B23 /* MeetingViewModel.swift */; };
+		704529DA269BE00B000A4B23 /* MeetingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704529D9269BE00B000A4B23 /* MeetingsViewModel.swift */; };
+		70DE782F269926F100EDEA0D /* AddPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE782E269926F100EDEA0D /* AddPlannerView.swift */; };
+		70E3EA6B269A39E900FBAB13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E3EA6A269A39E900FBAB13 /* LoginView.swift */; };
+		939289C62B8221BE14B2CA1D /* Pods_SquareOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33811EDC8874032BBC343F /* Pods_SquareOne.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CCA9C53D269A3C7500C504E7 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
-		CCB53BEB2698EF410056370D /* SquareOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCB53BEE2698EF410056370D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCB53BF02698EF410056370D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCB53BF22698EF410056370D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCB53BF52698EF410056370D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCB53BF72698EF510056370D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCB53BFA2698EF510056370D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CCB53BFC2698EF510056370D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCB53C06269906EE0056370D /* axis.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = axis.otf; path = ../../../Downloads/axis.otf; sourceTree = "<group>"; };
-		CCB53C0C269917950056370D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		068BF5D3EB1CAC221421A73D /* Pods-SquareOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareOne.debug.xcconfig"; path = "Target Support Files/Pods-SquareOne/Pods-SquareOne.debug.xcconfig"; sourceTree = "<group>"; };
+		1B80068D17AB0756AEA90F88 /* Pods-SquareOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareOne.release.xcconfig"; path = "Target Support Files/Pods-SquareOne/Pods-SquareOne.release.xcconfig"; sourceTree = "<group>"; };
+		7044A5CC269907AA001E7936 /* SquareOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7044A5CF269907AA001E7936 /* SquareOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOneApp.swift; sourceTree = "<group>"; };
+		7044A5D1269907AA001E7936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7044A5D3269907AC001E7936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7044A5D6269907AC001E7936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7044A5D8269907AC001E7936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7044A5DE269907D5001E7936 /* PlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
+		7044A5E126991876001E7936 /* axis.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = axis.otf; sourceTree = "<group>"; };
+		7044A5E326991B55001E7936 /* Axis-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Axis-Extrabold.otf"; sourceTree = "<group>"; };
+		704529C5269A8C95000A4B23 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		704529C7269A9211000A4B23 /* AddMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetingView.swift; sourceTree = "<group>"; };
+		704529C9269AA4CE000A4B23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		704529CB269B69D4000A4B23 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		704529CD269B7596000A4B23 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		704529D1269B8652000A4B23 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		704529D3269BDBBE000A4B23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		704529D5269BDDAA000A4B23 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		704529D7269BDF99000A4B23 /* MeetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewModel.swift; sourceTree = "<group>"; };
+		704529D9269BE00B000A4B23 /* MeetingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsViewModel.swift; sourceTree = "<group>"; };
+		70DE782E269926F100EDEA0D /* AddPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlannerView.swift; sourceTree = "<group>"; };
+		70E3EA6A269A39E900FBAB13 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BF33811EDC8874032BBC343F /* Pods_SquareOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CCB53BE82698EF410056370D /* Frameworks */ = {
+		7044A5C9269907AA001E7936 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939289C62B8221BE14B2CA1D /* Pods_SquareOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CCB53BE22698EF400056370D = {
+		6E05B6722ECB5E01CD159D0A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CCB53BED2698EF410056370D /* SquareOne */,
-				CCB53BEC2698EF410056370D /* Products */,
+				068BF5D3EB1CAC221421A73D /* Pods-SquareOne.debug.xcconfig */,
+				1B80068D17AB0756AEA90F88 /* Pods-SquareOne.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7044A5C3269907AA001E7936 = {
+			isa = PBXGroup;
+			children = (
+				7044A5E026991831001E7936 /* Fonts */,
+				7044A5CE269907AA001E7936 /* SquareOne */,
+				7044A5CD269907AA001E7936 /* Products */,
+				6E05B6722ECB5E01CD159D0A /* Pods */,
+				AA4F7F089B0F2F4D5CCC385C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		CCB53BEC2698EF410056370D /* Products */ = {
+		7044A5CD269907AA001E7936 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCB53BEB2698EF410056370D /* SquareOne.app */,
+				7044A5CC269907AA001E7936 /* SquareOne.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCB53BED2698EF410056370D /* SquareOne */ = {
+		7044A5CE269907AA001E7936 /* SquareOne */ = {
 			isa = PBXGroup;
 			children = (
-				CCB53BEE2698EF410056370D /* AppDelegate.swift */,
-				CCB53BF02698EF410056370D /* SceneDelegate.swift */,
-				CCB53BF22698EF410056370D /* ViewController.swift */,
-				CCB53C0C269917950056370D /* ResultViewController.swift */,
-				CCB53BF42698EF410056370D /* Main.storyboard */,
-				CCA9C53D269A3C7500C504E7 /* ScheduleViewController.swift */,
-				CCB53C06269906EE0056370D /* axis.otf */,
-				CCB53BF72698EF510056370D /* Assets.xcassets */,
-				CCB53BF92698EF510056370D /* LaunchScreen.storyboard */,
-				CCB53BFC2698EF510056370D /* Info.plist */,
+				704529D3269BDBBE000A4B23 /* GoogleService-Info.plist */,
+				70E3EA6A269A39E900FBAB13 /* LoginView.swift */,
+				7044A5CF269907AA001E7936 /* SquareOneApp.swift */,
+				7044A5D1269907AA001E7936 /* ContentView.swift */,
+				7044A5D3269907AC001E7936 /* Assets.xcassets */,
+				7044A5D8269907AC001E7936 /* Info.plist */,
+				7044A5D5269907AC001E7936 /* Preview Content */,
+				7044A5DE269907D5001E7936 /* PlannerView.swift */,
+				70DE782E269926F100EDEA0D /* AddPlannerView.swift */,
+				704529C5269A8C95000A4B23 /* MeetingView.swift */,
+				704529C7269A9211000A4B23 /* AddMeetingView.swift */,
+				704529C9269AA4CE000A4B23 /* HomeView.swift */,
+				704529CB269B69D4000A4B23 /* ScheduleView.swift */,
+				704529CD269B7596000A4B23 /* ProfileView.swift */,
+				704529D1269B8652000A4B23 /* MainView.swift */,
+				704529D5269BDDAA000A4B23 /* Meeting.swift */,
+				704529D7269BDF99000A4B23 /* MeetingViewModel.swift */,
+				704529D9269BE00B000A4B23 /* MeetingsViewModel.swift */,
 			);
 			path = SquareOne;
+			sourceTree = "<group>";
+		};
+		7044A5D5269907AC001E7936 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7044A5D6269907AC001E7936 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7044A5E026991831001E7936 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7044A5E126991876001E7936 /* axis.otf */,
+				7044A5E326991B55001E7936 /* Axis-Extrabold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AA4F7F089B0F2F4D5CCC385C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF33811EDC8874032BBC343F /* Pods_SquareOne.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCB53BEA2698EF410056370D /* SquareOne */ = {
+		7044A5CB269907AA001E7936 /* SquareOne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCB53BFF2698EF510056370D /* Build configuration list for PBXNativeTarget "SquareOne" */;
+			buildConfigurationList = 7044A5DB269907AC001E7936 /* Build configuration list for PBXNativeTarget "SquareOne" */;
 			buildPhases = (
-				CCB53BE72698EF410056370D /* Sources */,
-				CCB53BE82698EF410056370D /* Frameworks */,
-				CCB53BE92698EF410056370D /* Resources */,
+				9C235F0A6F94ACB8952A3015 /* [CP] Check Pods Manifest.lock */,
+				7044A5C8269907AA001E7936 /* Sources */,
+				7044A5C9269907AA001E7936 /* Frameworks */,
+				7044A5CA269907AA001E7936 /* Resources */,
+				8309A3A8C695AD94FF0C6E29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,24 +163,24 @@
 			);
 			name = SquareOne;
 			productName = SquareOne;
-			productReference = CCB53BEB2698EF410056370D /* SquareOne.app */;
+			productReference = 7044A5CC269907AA001E7936 /* SquareOne.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CCB53BE32698EF400056370D /* Project object */ = {
+		7044A5C4269907AA001E7936 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					CCB53BEA2698EF410056370D = {
-						CreatedOnToolsVersion = 12.2;
+					7044A5CB269907AA001E7936 = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = CCB53BE62698EF400056370D /* Build configuration list for PBXProject "SquareOne" */;
+			buildConfigurationList = 7044A5C7269907AA001E7936 /* Build configuration list for PBXProject "SquareOne" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,66 +188,97 @@
 				en,
 				Base,
 			);
-			mainGroup = CCB53BE22698EF400056370D;
-			productRefGroup = CCB53BEC2698EF410056370D /* Products */;
+			mainGroup = 7044A5C3269907AA001E7936;
+			productRefGroup = 7044A5CD269907AA001E7936 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCB53BEA2698EF410056370D /* SquareOne */,
+				7044A5CB269907AA001E7936 /* SquareOne */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CCB53BE92698EF410056370D /* Resources */ = {
+		7044A5CA269907AA001E7936 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB53C07269906EE0056370D /* axis.otf in Resources */,
-				CCB53C042698FA600056370D /* LaunchScreen.storyboard in Resources */,
-				CCB53BF82698EF510056370D /* Assets.xcassets in Resources */,
-				CCB53BF62698EF410056370D /* Main.storyboard in Resources */,
+				7044A5D7269907AC001E7936 /* Preview Assets.xcassets in Resources */,
+				7044A5D4269907AC001E7936 /* Assets.xcassets in Resources */,
+				704529D4269BDBBE000A4B23 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8309A3A8C695AD94FF0C6E29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquareOne/Pods-SquareOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquareOne/Pods-SquareOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SquareOne/Pods-SquareOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C235F0A6F94ACB8952A3015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquareOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		CCB53BE72698EF410056370D /* Sources */ = {
+		7044A5C8269907AA001E7936 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA9C53E269A3C7500C504E7 /* ScheduleViewController.swift in Sources */,
-				CCB53BF32698EF410056370D /* ViewController.swift in Sources */,
-				CCB53BEF2698EF410056370D /* AppDelegate.swift in Sources */,
-				CCB53BF12698EF410056370D /* SceneDelegate.swift in Sources */,
-				CCB53C0D269917950056370D /* ResultViewController.swift in Sources */,
+				7044A5D2269907AA001E7936 /* ContentView.swift in Sources */,
+				7044A5D0269907AA001E7936 /* SquareOneApp.swift in Sources */,
+				704529CE269B7596000A4B23 /* ProfileView.swift in Sources */,
+				7044A5DF269907D5001E7936 /* PlannerView.swift in Sources */,
+				704529C8269A9211000A4B23 /* AddMeetingView.swift in Sources */,
+				70E3EA6B269A39E900FBAB13 /* LoginView.swift in Sources */,
+				704529CC269B69D4000A4B23 /* ScheduleView.swift in Sources */,
+				704529D2269B8652000A4B23 /* MainView.swift in Sources */,
+				704529D6269BDDAA000A4B23 /* Meeting.swift in Sources */,
+				704529CA269AA4CE000A4B23 /* HomeView.swift in Sources */,
+				704529DA269BE00B000A4B23 /* MeetingsViewModel.swift in Sources */,
+				70DE782F269926F100EDEA0D /* AddPlannerView.swift in Sources */,
+				704529C6269A8C95000A4B23 /* MeetingView.swift in Sources */,
+				704529D8269BDF99000A4B23 /* MeetingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		CCB53BF42698EF410056370D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCB53BF52698EF410056370D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCB53BF92698EF510056370D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCB53BFA2698EF510056370D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		CCB53BFD2698EF510056370D /* Debug */ = {
+		7044A5D9269907AC001E7936 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -238,7 +339,7 @@
 			};
 			name = Debug;
 		};
-		CCB53BFE2698EF510056370D /* Release */ = {
+		7044A5DA269907AC001E7936 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,36 +394,46 @@
 			};
 			name = Release;
 		};
-		CCB53C002698EF510056370D /* Debug */ = {
+		7044A5DC269907AC001E7936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068BF5D3EB1CAC221421A73D /* Pods-SquareOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SquareOne/Preview Content\"";
+				DEVELOPMENT_TEAM = HX79X35YK7;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SquareOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atharva-Gupta.SquareOne";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charanvengatesh.SquareOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CCB53C012698EF510056370D /* Release */ = {
+		7044A5DD269907AC001E7936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B80068D17AB0756AEA90F88 /* Pods-SquareOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SquareOne/Preview Content\"";
+				DEVELOPMENT_TEAM = HX79X35YK7;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SquareOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atharva-Gupta.SquareOne";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charanvengatesh.SquareOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,25 +443,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCB53BE62698EF400056370D /* Build configuration list for PBXProject "SquareOne" */ = {
+		7044A5C7269907AA001E7936 /* Build configuration list for PBXProject "SquareOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCB53BFD2698EF510056370D /* Debug */,
-				CCB53BFE2698EF510056370D /* Release */,
+				7044A5D9269907AC001E7936 /* Debug */,
+				7044A5DA269907AC001E7936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCB53BFF2698EF510056370D /* Build configuration list for PBXNativeTarget "SquareOne" */ = {
+		7044A5DB269907AC001E7936 /* Build configuration list for PBXNativeTarget "SquareOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCB53C002698EF510056370D /* Debug */,
-				CCB53C012698EF510056370D /* Release */,
+				7044A5DC269907AC001E7936 /* Debug */,
+				7044A5DD269907AC001E7936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CCB53BE32698EF400056370D /* Project object */;
+	rootObject = 7044A5C4269907AA001E7936 /* Project object */;
 }
